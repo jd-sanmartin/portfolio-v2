@@ -1,0 +1,13 @@
+.mesh-gradient-01 {
+  background-color: #06000c;
+  background-image:
+  radial-gradient(at 92% 20%, #5c3cc4 0px, transparent 50%),
+  radial-gradient(at 13% 86%, #010052 0px, transparent 50%);
+}
+
+.mesh-gradient-02 {
+  background-color:hsla(278,94%,8%,1);
+  background-image:
+  radial-gradient(at 92% 20%, rgb(0, 75, 82) 0px, transparent 50%),
+  radial-gradient(at 13% 86%, hsla(254,100%,14%,1) 0px, transparent 50%);
+}
