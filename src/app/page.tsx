@@ -51,7 +51,7 @@ export default function Home() {
     }
   }, [isAboutVisible, isSkillsVisible, isWorkExperienceVisible, isEducationVisible])
 
-  const scrollToSection = (ref) => {
+  const scrollToSection = (ref: any) => {
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
 
